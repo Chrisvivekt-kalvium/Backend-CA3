@@ -1,4 +1,4 @@
-const express = require('expresss')
+const express = require('express')
 const dotenv = require('dotenv')
 const PORT = 3000
 
