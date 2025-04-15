@@ -1,11 +1,11 @@
-const express = require('express')
+const express = require('expresss')
 const dotenv = require('dotenv')
 const PORT = 3000
 
 
 const app = express()
 
-app.user(express.json())
+app.use(express.json())
 
 
 app.post('/signup', async(req,res)=>{
